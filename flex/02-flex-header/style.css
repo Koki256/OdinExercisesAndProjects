@@ -1,0 +1,38 @@
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  margin: 16px 32px;
+  padding: 0px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between flex-start;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
